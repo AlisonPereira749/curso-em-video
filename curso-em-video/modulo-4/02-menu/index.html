@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/302b4197ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Menu Hambúrguer</title>
+</head>
+<body>
+    <header>
+        <h2>Menu Hambúrguer</h2>
+        <i class="fa-solid fa-bars" id="menuBtn" onclick="clickMenu()"></i>
+        <menu id="boxMenu">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main class="container">
+        <article>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ex nam possimus accusamus accusantium ab eum a hic laudantium nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eum placeat et consectetur deleniti molestiae ratione inventore quisquam! Nihil, debitis.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ex nam possimus accusamus accusantium ab eum a hic laudantium nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eum placeat et consectetur deleniti molestiae ratione inventore quisquam! Nihil, debitis.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ex nam possimus accusamus accusantium ab eum a hic laudantium nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eum placeat et consectetur deleniti molestiae ratione inventore quisquam! Nihil, debitis.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if(boxMenu.style.display =='block'){
+                boxMenu.style.display = 'none'
+            } else {
+                boxMenu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
